@@ -41,6 +41,7 @@ define(function (require, exports, module) {
 				htmlContent = htmlContent.replace(/:c:/g,"&#169;");
 				htmlContent = htmlContent.replace(/:r:/g,"&#174;");
 				htmlContent = htmlContent.replace(/’/g,"'");
+				htmlContent = htmlContent.replace(/‘/g,"'");
 				htmlContent = htmlContent.replace(/“/g,"\"");
 				htmlContent = htmlContent.replace(/”/g,"\"");
 				htmlContent = htmlContent.replace(/\s&\s/g,"&amp;");
