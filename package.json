@@ -1,0 +1,22 @@
+{
+    "name": "brackets-spec-rep",
+    "title": "brackets specRep - Special Character Replacer",
+    "version": "1.0.0",
+    "description": "Extension that searches through and replaces any special characters with relevant code equivalent.",
+    "homepage": "https://github.com/jPARK-BiP/brackets-specRep",
+    "author": "James Park jpark.bip@gmail.com (https://github.com/jPARK-BiP)",
+    "license": "MIT",
+    "categories":"snippets",
+    "keywords": [
+        "special",
+        "character",
+		"replacement"
+    ],
+    "files": [
+        "main.js",
+        "README.md"
+    ],
+    "engines": {
+        "brackets": ">=0.30.0"
+    }
+}
