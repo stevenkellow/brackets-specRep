@@ -2,18 +2,31 @@ Brackets specRep - A Special Characters Replacer
 ===
 Brackets extension that will replace certain special characters (listed below) for ease of use when creating/editing emails for campaign purposes.
 
+Replaced characters (minus the '.'):
 ===
-Replaced characters:
+short dash to &.ndash;
 
-short dash to &ndash;
-long dash to &mdash;
-£ to &pound;
-:tm: to the TM logo &#153;
-:tick:/ to a heavy ascii tick &#10004;
-:c: to the copyright logo &#169;
-:r: to the registered logo &#174;
+long dash to &.mdash;
+
+£ to &.pound;
+
+:tm: to the TM logo &.#153;
+
+:tick: to a heavy ascii tick &.#10004;
+
+:c: to the copyright logo &.#169;
+
+:r: to the registered logo &.#174;
+
+’ to '
+
+“ and ” to "
+
+& (with a space on either side) to &.amp;
+
+
+Installation
 ===
-
 To install this extension:
 In Brackets, under "Help" select "Show Extensions Folder". Place extension folder with files inside the "user" folder.
 
