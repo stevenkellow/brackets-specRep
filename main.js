@@ -45,6 +45,7 @@ define(function (require, exports, module) {
 				htmlContent = htmlContent.replace(/“/g,"\"");
 				htmlContent = htmlContent.replace(/”/g,"\"");
 				htmlContent = htmlContent.replace(/\s&\s/g,"&amp;");
+				htmlContent = htmlContent.replace(/\u2026/g,"...;");
 			
 				activeText.setText(htmlContent);
 
