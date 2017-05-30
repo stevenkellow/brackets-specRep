@@ -24,6 +24,8 @@ long dash to &.mdash;
 
 & (with a space on either side) to &.amp;
 
+… to ...
+
 
 Installation
 ===
